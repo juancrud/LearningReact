@@ -1,0 +1,26 @@
+.mountNode {
+  color: #333;
+}
+
+span.letter {
+	display: inline-block;
+  margin: 0.5em;
+  text-align: center;
+  background-color: #ccc;
+  width: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+span.letter.used {
+	background-color: #eee;
+  color: #ddd;
+  cursor: not-allowed;
+}
+
+span.word {
+	display: inline-block;
+  margin: 0.25em;
+  text-align: center;
+  background-color: #ccc;
+  width: 24px;
+}
